@@ -1,0 +1,17 @@
+# .gitignore
+# Dependencies
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Vercel and Build Artifacts
+.vercel/
+build/
+dist/
+
+# Dataset and Model (If too large, or if you plan to retrain on the fly)
+# Since the model is small, we will include it for Vercel deployment simplicity.
+# However, for large models, you'd use a service like Amazon S3 or Google Cloud Storage.
+# monthly_flask_co2_mlo.csv

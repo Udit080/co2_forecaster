@@ -1,0 +1,7 @@
+pandas
+statsmodels  # For SARIMA model
+scikit-learn # For any data transformations/metrics (optional but good practice)
+uvicorn[standard] # ASGI server for FastAPI
+fastapi
+python-dotenv
+joblib      # To save/load the trained model
